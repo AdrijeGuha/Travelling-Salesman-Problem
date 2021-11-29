@@ -1,0 +1,9 @@
+Project title:- Optimizing the travel distance of covid personals
+
+Officials travelling around in my locality to collect covid data has to travel long 
+distances and we wolud like to optimize this.
+
+>Travellig Salesman problem
+
+Specific Conditions will be considered for selection of routes like which house to
+visit first, etc.
