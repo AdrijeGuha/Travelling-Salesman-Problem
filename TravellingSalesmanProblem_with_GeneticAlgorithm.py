@@ -27,7 +27,10 @@ xLim , yLim = [], []
 file_to_charge = {
                  'Delhi' : 'Houses(Delhi).json',
                  'Chennai' : 'Houses(Chennai).json',
-                 'Kolkata' : 'Houses(Kolkata).json'
+                 'Kolkata' : 'Houses(Kolkata).json',
+                 'Mumbai' : 'Houses(Mumbai).json',
+                 'Dehradun' : 'Houses(Dehradun).json',
+                 'Kanpur' : 'Houses(Kanpur).json'
                  }
 locationName = 'Chennai' # Change this as per the location to consider
 H_Dict = dict()
