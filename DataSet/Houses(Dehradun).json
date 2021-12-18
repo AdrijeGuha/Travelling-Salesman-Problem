@@ -3,127 +3,158 @@
       [
           {
               "longitude":78.09184828009006,
-              "latitude":30.36561904341498
+              "latitude":30.36561904341498,
+              "time" : "12noon to 3pm"
           },
           {
               "longitude":78.09127814745125,
-              "latitude":30.365961937408272
+              "latitude":30.365961937408272,
+              "time" : "12noon to 3pm"
           },
           {
               "longitude":78.09094467364116,
-              "latitude":30.36619397416416
+              "latitude":30.36619397416416,
+              "time" : "3pm to 5pm"
           },
           { 
               "longitude":78.09150404906427,
-              "latitude":30.365869122551445
+              "latitude":30.365869122551445,
+              "time" : "3pm to 5pm"
           },
           { 
               "longitude":78.0904713559762,
-              "latitude":30.366528106124832
+              "latitude":30.366528106124832,
+              "time" : "3pm to 5pm"
           },
           { 
               "longitude":78.09030999768129,
-              "latitude":30.36612900392771
+              "latitude":30.36612900392771,
+              "time" : "9am to 12noon"
           },
           {
               "longitude":78.09078331534613,
-              "latitude":30.365887685530026
+              "latitude":30.365887685530026,
+              "time" : "9am to 12noon"
           },
           {
               "longitude":78.09179148359908,
-              "latitude":30.36655225637051
+              "latitude":30.36655225637051,
+              "time" : "3pm to 5pm"
           },
           {
               "longitude":78.09122521093275,
-              "latitude":30.36689530489039
+              "latitude":30.36689530489039,
+              "time" : "12noon to 3pm"
           },
           { 
               "longitude":78.09149027473438,
-              "latitude":30.36671858307521
+              "latitude":30.36671858307521,
+              "time" : "9am to 12noon"
           },
           {
               "longitude":78.09111677574151,
-              "latitude":30.365637454429958
+              "latitude":30.365637454429958,
+              "time" : "9am to 12noon"
           },
           {
               "longitude":78.09143003296026,
-              "latitude":30.3653775659549
+              "latitude":30.3653775659549,
+              "time" : "3pm to 5pm"
           },
           {
               "longitude":78.09056255142946,
-              "latitude":30.366396324826127
+              "latitude":30.366396324826127,
+              "time" : "12noon to 3pm"
           },
           {
               "longitude":78.09011676230887,
-              "latitude":30.36679135092058
+              "latitude":30.36679135092058,
+              "time" : "9am to 12noon"
           },
           {
               "longitude":78.09211678917393,
-              "latitude":30.366333952139072
+              "latitude":30.366333952139072,
+              "time" : "3pm to 5pm"
           },
           {
               "longitude":78.09230956284637,
-              "latitude":30.366957677219403
+              "latitude":30.366957677219403,
+              "time" : "9am to 12noon"
           },
           {
               "longitude":78.09302041576859,
-              "latitude":30.36621960210924
+              "latitude":30.36621960210924,
+              "time" : "12noon to 3pm"
           },
           {
               "longitude":78.093743317046,
-              "latitude":30.367550212361493
+              "latitude":30.367550212361493,
+              "time" : "12noon to 3pm"
           },
           {
               "longitude":78.09223727271876,
-              "latitude":30.365367170401086
+              "latitude":30.365367170401086,
+              "time" : "3pm to 5pm"
           },
           {
               "longitude":78.09116638297633,
-              "latitude":30.364786378442744
+              "latitude":30.364786378442744,
+              "time" : "9am to 12noon"
           },
           {
               "longitude":78.09194660266303,
-              "latitude":30.364588380398715
+              "latitude":30.364588380398715,
+              "time" : "12noon to 3pm"
           },
           {
               "longitude":78.0905391475444,
-              "latitude":30.364839177854066
+              "latitude":30.364839177854066,
+              "time" : "3pm to 5pm"
           },
           {
               "longitude":78.09344584833309,
-              "latitude":30.365987557985136
+              "latitude":30.365987557985136,
+              "time" : "12noon to 3pm"
           },
           {
               "longitude":78.09242085384255,
-              "latitude":30.365961158593066
+              "latitude":30.365961158593066,
+              "time" : "9am to 12noon"
           },
           {
               "longitude":78.09258913652104,
-              "latitude":30.366924731776493
+              "latitude":30.366924731776493,
+              "time" : "3pm to 5pm"
           },
           {
               "longitude":78.09082981762151,
-              "latitude":30.3672547204105
+              "latitude":30.3672547204105,
+              "time" : "12noon to 3pm"
           },
           {
               "longitude":78.09015668691393,
-              "latitude":30.365129574103065
+              "latitude":30.365129574103065,
+              "time" : "3pm to 5pm"
           },
           {
               "longitude":78.0919007073876,
-              "latitude":30.365221972729444
+              "latitude":30.365221972729444,
+              "time" : "12noon to 3pm"
           },
           {
               "longitude":78.0894529593545,
-              "latitude":30.364693979405715
+              "latitude":30.364693979405715,
+              "time" : "9am to 12noon"
           },
           {
               "longitude":78.0906309380955,
-              "latitude":30.364363982130598
+              "latitude":30.364363982130598,
+              "time" : "9am to 12noon"
           },
           {
               "longitude":78.09213018376545,
-              "latitude":30.36437718204266
+              "latitude":30.36437718204266,
+              "time" : "3pm to 5pm"
           }
       ]
 }
