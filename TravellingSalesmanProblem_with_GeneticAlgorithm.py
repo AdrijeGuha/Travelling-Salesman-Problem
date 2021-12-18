@@ -3,11 +3,8 @@ import numpy as np
 import math as m
 from random import shuffle
 from time import sleep
-import matplotlib.pyplot as plt
-from IPython.display import clear_output
 import sys
 import os
-import pandas as pd
 import requests
 from requests.structures import CaseInsensitiveDict
 import openrouteservice as ors
