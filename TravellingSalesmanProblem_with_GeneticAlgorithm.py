@@ -124,15 +124,11 @@ def setup():
     getHouseFromDataBase()
     
     for i in range(totalHouses):
-        # print(f'Entry for house {i+1}')
         houses.append([H_Dict['house'][i]['latitude'], H_Dict['house'][i]['longitude']])
         houses[i].append(i+1)
         order.append(i)
-        # rank = int(input("\tRank :"))
-        rank = np.random.randint(1, high=4)
 
-        if rank in houseRank.keys():
-            houseRank[rank].append(i)
+    House_Rank()
     
     for i in range(popSize):
         population.append(list(order))
