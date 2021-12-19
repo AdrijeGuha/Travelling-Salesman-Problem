@@ -11,7 +11,24 @@ import openrouteservice as ors
 import folium
 
 # Variable Initialization
-totalHouses = 25
+file_to_charge = {
+                  'Delhi' : 'Houses(Delhi).json',
+                  'Chennai' : 'Houses(Chennai).json',
+                  'Kolkata' : 'Houses(Kolkata).json',
+                  'Mumbai' : 'Houses(Mumbai).json',
+                  'Dehradun' : 'Houses(Dehradun).json',
+                  'Kanpur' : 'Houses(Kanpur).json'
+                 }
+locationName = 'Chennai'
+Number_Of_Houses = {
+                    'Delhi' : 25,
+                    'Chennai' : 25,
+                    'Kolkata' : 30,
+                    'Mumbai' : 31,
+                    'Dehradun' : 31,
+                    'Kanpur' : 31
+                    }
+totalHouses = Number_Of_Houses[locationName]
 houses = []
 rankSize = 3
 houseRank = {
@@ -20,16 +37,6 @@ houseRank = {
             3 : []
             }
 housesDist = dict()
-xLim , yLim = [], []
-file_to_charge = {
-                 'Delhi' : 'Houses(Delhi).json',
-                 'Chennai' : 'Houses(Chennai).json',
-                 'Kolkata' : 'Houses(Kolkata).json',
-                 'Mumbai' : 'Houses(Mumbai).json',
-                 'Dehradun' : 'Houses(Dehradun).json',
-                 'Kanpur' : 'Houses(Kanpur).json'
-                 }
-locationName = 'Chennai' # Change this as per the location to consider
 H_Dict = dict()
 
 # GA variables
@@ -132,7 +139,6 @@ def setup():
         shuffle(population[i])
     
     DistanceMatrix()
-    setGraphLimits()
 
 def draw():
     global generationNumber 
@@ -166,7 +172,7 @@ def genSort_Rank(orderNumber):
         for key, value in houseRank.items():
             if val in value:
                 return int(key)
-        return 4
+        return 3
     
     for i in range(1,totalHouses):
         houseNumber,pos = population[orderNumber][i],i
@@ -243,7 +249,7 @@ def DistanceMatrix():
     housesDist = resp.json()
 
 def mapMaking():
-    global houses, bestEver, xLim, yLim, file_to_charge, locationName
+    global houses, bestEver, file_to_charge, locationName
     
     map_= folium.Map(location=[houses[bestEver[0]][0],houses[bestEver[0]][1]], zoom_start=20)
 
@@ -265,12 +271,6 @@ def mapMaking():
     
     map_.save(f'House_Route_On_Map_{file_to_charge[locationName]}.html')
     return(f'House_Route_On_Map_{file_to_charge[locationName]}.html')
-
-def setGraphLimits():
-    global houses, xLim , yLim
-    
-    xLim =[min(houses, key=lambda x: x[1])[1]-0.001, max(houses, key=lambda x: x[1])[1]+0.001]
-    yLim =[min(houses, key=lambda x: x[0])[0]-0.001, max(houses, key=lambda x: x[0])[0]+0.001]
 
 def main():
     loopBreaker = 0
