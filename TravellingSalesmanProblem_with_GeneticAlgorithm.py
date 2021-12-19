@@ -265,8 +265,8 @@ def mapMaking():
 
     folium.LayerControl(position='topright',collapsed=True).add_to(map_)
     
-    map_.save(f'House_Route_On_Map_{file_to_charge[locationName]}.html')
-    return(f'House_Route_On_Map_{file_to_charge[locationName]}.html')
+    map_.save(f'output_folder/House_Route_On_Map_{file_to_charge[locationName]}.html')
+    return(f'output_folder/House_Route_On_Map_{file_to_charge[locationName]}.html')
 
 def main():
     loopBreaker = 0
