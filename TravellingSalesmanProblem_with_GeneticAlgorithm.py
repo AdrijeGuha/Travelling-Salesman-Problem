@@ -269,11 +269,12 @@ def mapMaking():
     return(f'output_folder/House_Route_On_Map_{file_to_charge[locationName]}.html')
 
 def main():
-    loopBreaker = 0
     setup()
-    
-    extension = 200
+
+    loopBreaker = 0    
+    extension = 100
     flg = True
+    
     while flg:
         draw()    
         if generationNumber >= extension:
