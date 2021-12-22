@@ -1,0 +1,1 @@
+Sequence of shortest route for visiting houses is stored here.  
