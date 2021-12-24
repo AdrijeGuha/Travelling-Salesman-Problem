@@ -1,5 +1,5 @@
 numpy==1.20.3
 requests==2.26.0
 openrouteservice==2.3.3
-folium==0.12.1.post1
+folium==0.12.1
 Flask==1.1.4
