@@ -1,1 +1,1 @@
-Sequence of shortest route for visiting houses is stored here.  
+Shortest visiting sequence of houses is [4, 6, 2, 1, 7, 24, 10, 15, 22, 21, 11, 12, 8, 9, 13, 14, 18, 23, 5, 16, 19, 17, 20, 25, 3], with total diatnace to cover 6345 units.

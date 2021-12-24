@@ -15,10 +15,10 @@ def execute():
     if request.method == "POST":
         location = request.form.get('city')
     location.strip().rstrip()
-    with open('storage/Location_for_Show_Map.txt','w') as file:
+    with open('./storage/Location_for_Show_Map.txt','w') as file:
         file.write(location)
-    # RouteOptimizer.main()
-    with open('storage/shortest_path_sequence.txt','r') as file:
+    RouteOptimizer.main()
+    with open('./storage/shortest_path_sequence.txt','r') as file:
         text = file.read()
 
     return render_template('execute.html', text=text) 

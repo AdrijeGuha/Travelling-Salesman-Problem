@@ -19,7 +19,7 @@ file_to_charge = {
                   'Dehradun' : 'Houses(Dehradun).json',
                   'Kanpur' : 'Houses(Kanpur).json'
                  }
-with open('storage/Location_For_Show_Map.txt', 'r') as loc:
+with open('./storage/Location_For_Show_Map.txt', 'r') as loc:
     locationName = loc.read()
 Number_Of_Houses = {
                     'Delhi' : 25,
@@ -267,7 +267,7 @@ def mapMaking():
 
     folium.LayerControl(position='topright',collapsed=True).add_to(map_)
     
-    map_.save('templates/House_Route_On_Map.html')
+    map_.save('./templates/House_Route_On_Map.html')
 
 def main():
     loopBreaker = 0
@@ -280,7 +280,7 @@ def main():
         draw()    
         if generationNumber >= extension:
             if loopBreaker == recordDistance:
-                with open('storage/shortest_path_sequence.txt','w') as file:
+                with open('./storage/shortest_path_sequence.txt','w') as file:
                     file.write(f"Shortest visiting sequence of houses is {[i+1 for i in bestEver]}, with total diatnace to cover {recordDistance} units.")
 
                 print(f"Shortest visiting sequence of houses is {[i+1 for i in bestEver]}, with total diatnace to cover {recordDistance} units.")
@@ -295,6 +295,3 @@ def main():
     print("\n\aGenerating the map......Please Wait!")
     mapMaking()
     print('\aProgram Completed successfully.')
-
-if __name__ == '__main__':
-    main()
