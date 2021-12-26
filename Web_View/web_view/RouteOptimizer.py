@@ -31,7 +31,6 @@ Number_Of_Houses = {
                     }
 totalHouses = Number_Of_Houses[locationName]
 houses = []
-rankSize = 3
 houseRank = {
             1 : [],
             2 : [],
@@ -47,7 +46,6 @@ generationNumber = 0
 
 recordDistance, currentRecord = m.inf,m.inf
 bestEver, currentBest = [],[]
-statusP = 0
 mutationRate = 0.01
 
 
@@ -117,7 +115,7 @@ def mutate(order):
 
 # Program Data Setup
 def setup():
-    global totalHouses, houses, rankSize, housesDist, houseRank, H_Dict, population, popSize, mutationRate
+    global totalHouses, houses, housesDist, houseRank, H_Dict, population, popSize, mutationRate
     
     order = []
     rank = 0,0,0
