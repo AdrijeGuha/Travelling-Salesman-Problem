@@ -310,5 +310,3 @@ def main():
     print("\n\aGenerating the map......Please Wait!")
     mapMaking()
     print('\aProgram Completed successfully.')
-
-main()
