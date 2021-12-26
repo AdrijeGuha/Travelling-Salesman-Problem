@@ -51,7 +51,7 @@ mutationRate = 0.01
 
 #Genetic Algorithm
 def calculateFitness():
-    global houses, popSize, populatuion, recordDistance, bestEver, currentRecord, currentBest, fitness
+    global houses, popSize, population, recordDistance, bestEver, currentRecord, currentBest, fitness
     
     currentRecord = m.inf
     for i in range(popSize):
@@ -127,9 +127,7 @@ def setup():
         houses[i].append(i+1)
         order.append(i)
 
-        rank = np.random.randint(1, high=4)
-        if rank in houseRank.keys():
-            houseRank[rank].append(i)
+    House_Rank()
     
     for i in range(popSize):
         population.append(list(order))
@@ -148,6 +146,26 @@ def draw():
     nextGeneration()
     
     print(f'Generation: {generationNumber}')
+
+def House_Rank():
+    global H_Dict, houseRank
+
+    morning, afternoon, evening = [], [], []
+    giventime = ''
+
+    for i in range(totalHouses):
+        giventime = H_Dict['house'][i]['time']
+
+        if giventime == "9am to 12noon":
+            morning.append(i)
+        elif giventime == "12noon to 3pm":
+            afternoon.append(i)
+        else:
+            evening.append(i)
+    
+    houseRank[1].extend(morning)
+    houseRank[2].extend(afternoon)
+    houseRank[3].extend(evening)
 
 def swap(a, i ,j):
     a[i], a[j] = a[j], a[i]

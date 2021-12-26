@@ -148,6 +148,25 @@ def draw():
     
     print(f'Generation: {generationNumber}')
 
+def House_Rank():
+    global H_Dict, houseRank
+
+    morning, afternoon, evening = [], [], []
+    giventime = ''
+
+    for i in range(totalHouses):
+        giventime = H_Dict['house'][i]['time']
+
+        if giventime == "9am to 12noon":
+            morning.append(i)
+        elif giventime == "12noon to 3pm":
+            afternoon.append(i)
+        else:
+            evening.append(i)
+    
+    houseRank[1].extend(morning)
+    houseRank[2].extend(afternoon)
+    houseRank[3].extend(evening)
 
 def swap(a, i ,j):
     a[i], a[j] = a[j], a[i]
