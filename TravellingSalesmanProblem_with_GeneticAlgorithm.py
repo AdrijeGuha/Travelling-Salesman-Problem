@@ -119,7 +119,6 @@ def setup():
     global totalHouses, houses, rankSize, housesDist, houseRank, H_Dict, population, popSize, mutationRate
     
     order = []
-    latitude, longitude, rank = 0,0,0
     
     getHouseFromDataBase()
     
@@ -204,7 +203,7 @@ def getHouseFromDataBase():
     
     resp = requests.get(url)
     
-    # Error checkinh and displaying the same
+    # Error checking and displaying the same
     statusCode = resp.status_code
     codes ={
             204 : 'Error Code 204 - No Content!',
