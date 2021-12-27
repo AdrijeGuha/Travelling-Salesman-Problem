@@ -1,1 +1,1 @@
-We have made a webapp to make the program interactive and easy to use. 
+We have made a webapp to make the project user-interactive. The webapp will take the input of the user (Covid Official) of their choice of city where they have to conduct the survey. The webapp also intakes queries of user in case if any. The optimized path along with the sequence of households visiting is shown in the output page.  
