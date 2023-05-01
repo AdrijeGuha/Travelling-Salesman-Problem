@@ -2,4 +2,4 @@ numpy==1.22.0
 requests==2.26.0
 openrouteservice==2.3.3
 folium==0.12.1
-Flask==1.1.4
+Flask==2.3.2
