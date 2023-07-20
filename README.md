@@ -1,4 +1,14 @@
 # **Optimizing the travel distance for Covid personal**
+<p align="center">
+  <img src="https://badgen.net/github/contributors/AdrijeGuha/Travelling-Salesman-Problem">
+<!--   <a href=""><img src="https://badgen.net/github/contributors/AdrijeGuha/Travelling-Salesman-Problem"></a>
+  <a href=""><img src="https://badgen.net/github/contributors/AdrijeGuha/Travelling-Salesman-Problem"></a>
+  <a href=""><img src="https://badgen.net/github/contributors/AdrijeGuha/Travelling-Salesman-Problem"></a> -->
+</p>
+
+<!-- ![contributers_count](https://badgen.net/github/contributors/AdrijeGuha/Travelling-Salesman-Problem) -->
+
+
 ![GraphMap](https://assets.website-files.com/6141c89a3874c3702674a1c0/6221f639c0ed2ff2ce5a215f_6220ee93025daf89d7876648_memgraph-use-cases-of-the-shorthest-path-algorithm-cover.png)
 
 This project is built for an academic project exhibition with the community in mind.  
