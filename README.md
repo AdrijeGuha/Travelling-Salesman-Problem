@@ -1,4 +1,4 @@
-# **Optimizing the travel distance for Covid personal**
+# **OptiRoute: Tackling the Traveling Salesman Problem for Covid Personnel**
 <p align="center">
   <img src="https://badgen.net/github/contributors/AdrijeGuha/Travelling-Salesman-Problem">
 <!--   <a href=""><img src="https://badgen.net/github/contributors/AdrijeGuha/Travelling-Salesman-Problem"></a>
